@@ -1,2 +1,1 @@
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_boot.img.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_j5y17lte.mk
