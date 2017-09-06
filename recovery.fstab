@@ -5,3 +5,9 @@
 /cache		ext4	/dev/block/platform/13540000.dwmmc0/by-name/CACHE
 /external_sd	vfat	/dev/block/mmcblk1p1 /dev/block/mmcblk1	flags=display="Micro SDcard";storage;wipeingui;removable
 /usb-otg	vfat	/dev/block/sda1  /dev/block/sda				flags=display="USB-OTG";storage;wipeingui;removable
+/efs		ext4	/dev/block/platform/13540000.dwmmc0/by-name/EFS		flags=backup=1;display="EFS"
+/cpefs		ext4	/dev/block/platform/13540000.dwmmc0/by-name/CPEFS	flags=backup=1;display="CPEFS";subpartitionof=/efs
+/m9kefs1	emmc	/dev/block/platform/13540000.dwmmc0/by-name/m9kefs1	flags=backup=1;subpartitionof=/efs
+/m9kefs2	emmc	/dev/block/platform/13540000.dwmmc0/by-name/m9kefs2	flags=backup=1;subpartitionof=/efs
+/m9kefs3	emmc	/dev/block/platform/13540000.dwmmc0/by-name/m9kefs3	flags=backup=1;subpartitionof=/efs
+/dev/block/platform/13540000.dwmmc0/by-name/RADIO	flags=backup=1;display="Modem"
