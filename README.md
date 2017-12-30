@@ -1,2 +1,2 @@
-# android_device_samsung_j5y17lte
-J5 Pro TWRP DeviceTree
+# TWRP_J5Y17LTE
+TWRP device tree for Samsung SM-J530F
