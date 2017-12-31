@@ -79,7 +79,7 @@ TW_INCLUDE_CRYPTO := true
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
-TWRP_EVENT_LOGGING := true
+TWRP_EVENT_LOGGING := false
 
 # Init properties from bootloader version, ex. model info
 #TARGET_UNIFIED_DEVICE := true
