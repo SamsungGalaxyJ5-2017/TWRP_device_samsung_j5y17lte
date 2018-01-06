@@ -39,14 +39,14 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 11936989184
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-TARGET_PREBUILT_KERNEL := device/samsung/j5y17lte/Image
-TARGET_PREBUILT_DTB := device/samsung/j5y17lte/dt.img
+TARGET_PREBUILT_KERNEL := device/samsung/j5y17lteub/Image
+TARGET_PREBUILT_DTB := device/samsung/j5y17lteub/dt.img
 
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/j5y17lte/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/j5y17lteub/bootimg.mk
 
 
 # TWRP specific build flags
@@ -85,7 +85,7 @@ TWRP_EVENT_LOGGING := false
 #TARGET_UNIFIED_DEVICE := true
 #TARGET_INIT_VENDOR_LIB := libinit_sec
 #TARGET_RECOVERY_DEVICE_MODULES := libinit_sec
-#TARGET_LIBINIT_DEFINES_FILE := device/samsung/j5y17lte/init/init_sec.cpp
+#TARGET_LIBINIT_DEFINES_FILE := device/samsung/j5y17lteub/init/init_sec.cpp
 
 # Charger/Healthd
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
