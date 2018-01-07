@@ -1,2 +1,2 @@
-# TWRP_J5Y17LTEDX
-TWRP device tree for Samsung SM-J530Y
+# TWRP_J5Y17LTEXTC
+TWRP device tree for Samsung SM-J530YM

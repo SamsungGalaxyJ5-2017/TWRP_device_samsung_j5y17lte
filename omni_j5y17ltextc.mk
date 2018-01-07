@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := j5y17ltedx
+PRODUCT_RELEASE_NAME := j5y17ltextc
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -12,8 +12,8 @@ PRODUCT_PACKAGES += \
 	charger
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_j5y17ltedx
-PRODUCT_DEVICE := j5y17ltedx
+PRODUCT_NAME := omni_j5y17ltextc
+PRODUCT_DEVICE := j5y17ltextc
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SM-J530Y
+PRODUCT_MODEL := SM-J530YM

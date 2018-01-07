@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_j5y17ltedx.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_j5y17ltextc.mk
