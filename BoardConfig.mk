@@ -29,24 +29,24 @@ TARGET_USES_UNCOMPRESSED_KERNEL := true
 BOARD_KERNEL_CMDLINE :=
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board SRPQA18G000KU
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --board SRPQC17B000RU
 
 # Partitions in Bytes (cat /proc/partitions)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
 BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 39845888
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 11936989184
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 27044855808
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-TARGET_PREBUILT_KERNEL := device/samsung/j5y17lte/Image
-TARGET_PREBUILT_DTB := device/samsung/j5y17lte/dt.img
+TARGET_PREBUILT_KERNEL := device/samsung/j5y17ltedx/Image
+TARGET_PREBUILT_DTB := device/samsung/j5y17ltedx/dt.img
 
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/j5y17lte/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/j5y17ltedx/bootimg.mk
 
 
 # TWRP specific build flags
@@ -85,7 +85,7 @@ TWRP_EVENT_LOGGING := false
 #TARGET_UNIFIED_DEVICE := true
 #TARGET_INIT_VENDOR_LIB := libinit_sec
 #TARGET_RECOVERY_DEVICE_MODULES := libinit_sec
-#TARGET_LIBINIT_DEFINES_FILE := device/samsung/j5y17lte/init/init_sec.cpp
+#TARGET_LIBINIT_DEFINES_FILE := device/samsung/j5y17ltedx/init/init_sec.cpp
 
 # Charger/Healthd
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
